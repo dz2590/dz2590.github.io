@@ -1,0 +1,39 @@
+# Site settings
+name: Daisy Zhou
+title: Daisy Zhou | Front End Software Engineer
+description: 
+url: https://dz2590.github.io
+baseurl: ''
+email: dz2590@columbia.edu
+cover: https://bchiang7.github.io/img/og.png
+logo: https://bchiang7.github.io/img/emojis/technologist.png
+resume: https://bchiang7.github.io/resume.pdf
+social:
+  - title: email
+    url: mailto:dz2590@columbia.edu
+  - title: github
+    url: https://github.com/dz2590
+  - title: linkedin
+    url: https://www.linkedin.com/in/daisydxzhou
+  
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap

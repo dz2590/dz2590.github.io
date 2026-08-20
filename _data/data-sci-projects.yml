@@ -1,0 +1,105 @@
+- name: Post-ICU Myocardial Infarction Risk Prediction
+  url: https://github.com/dz2590/healthcare-ml
+  code: https://github.com/dz2590/healthcare-ml
+  description: Final project for BINF 4008 - Machine Learning for Healthcare. Built and evaluated survival machine learning models using MIMIC-IV data to predict time to first myocardial infarction amongst post-ICU discharge patients.
+    Constructed patient cohort; conducted EDA and feature engineering; trained, tuned, and tested baseline cox, elastic net cox, random survival forest, and
+    gradient boosting models. Validated and assessed results using calibration, Kaplan-Meier risk stratification, hazard ratio interpretation, and subgroup performance analyses. 
+  used: 
+    - thing: Python
+    - thing: Exploratory Data Analysis
+    - thing: Feature Engineering
+    - thing: Supervised Learning 
+    - thing: Survival Analysis Modeling (scikit-survival, lifelines)
+    - thing: Google BigQuery (GoogleSQL)
+
+- name: IBM Job Salary Prediction and Workforce Analytics
+  url: https://github.com/Trigger-chen/5243-project4
+  code: https://github.com/Trigger-chen/5243-project4
+  description: Group project for STAT 5243 - Advanced Data Science and Artificial Intelligence. Built end-to-end salary analytics and prediction pipeline using web scraped IBM job posting data. 
+    Performed exploratory data analysis, feature engineering, unsupervised modeling, and supervised modeling to identify key compensation drivers and predict salary using features such as role,
+    seniority level, education level, geographic location, and technical skill requirements.
+  used:
+    - thing: Python
+    - thing: Selenium
+    - thing: Pandas
+    - thing: Scikit-learn
+    - thing: NLP
+    - thing: PCA
+    - thing: Clustering
+    - thing: Shiny
+
+- name: Identifying Restaurant Market Opportunities in California
+  url:
+  code:
+  description: Analyzing Yelp restaurant data paired with U.S. Census demographic data across California to explore how restaurant characteristics, local competition, cuisine availability, and
+    neighborhood demographics relate to customer ratings and engagement. The main objetive is to identify underserved restaurant categories within each zip code and determine what types of restaurant concepts
+    can yield the largest market opportunity. Currently a work in progress. 
+  used:
+  - thing: Pandas, Numpy
+  - thing: Scikit-learn
+  - thing: Matplotlib
+  - thing: Kaggle
+  - thing: U.S. Census API
+  - thing: Exploratory Data Analysis
+  - thing: Feature Engineering
+
+
+# - name: Adaptive Dynamic Pricing with Demand Learning and Revenue Optimization
+#   url: https://github.com/bchiang7/Surf-Videos
+#   code: https://github.com/bchiang7/Surf-Videos
+#   description: Final project for IEOR 4601 Dynamic Pricing course. Built a three-phase dynamic pricing strategy that learns customer demand and responds to changing
+#     competitor prices using systematic price exploration, Thompson Sampling under demand uncertainty, Histogram Gradient Boosting, and kernel-based demand
+#     estimation. Evaluates candidate prices and selects the one with the highest predicted revenue to offer to customers. 
+#   used:
+#     - thing: Python 
+#     - thing: SciPy
+#     - thing: Scikit-learn
+#     - thing: Thompson Sampling
+#     - thing: Gradient Boosting
+
+# - name: Columbia University Microtransit Shuttle Optimization
+#   url: https://bchiang7.github.io/halcyon-site/
+#   code: https://github.com/bchiang7/halcyon-site
+#   description: Final project for IEOR 4418 Transportation Analytics course. Developed a dynamic batching and vehicle routing framework to optimize 
+#     Columbia's nighttime shuttle service. The system batches ride requests, assigns them to available shuttles, and uses mixed integer Programming
+#     (Traveling Salesman) to optimize pick up and drop off routes. Conducted sensitivity analyses to evaluate how batching intervals and fleet
+#     availability affect passenger wait times and service performance. 
+#   used:
+#     - thing: Python
+#     - thing: Gurobi 
+#     - thing: NetworkX
+#     - thing: OSMnx
+#     - thing: Shapely
+#     - thing: Matplotlib
+#     - thing: Mixed Integer Programming
+#     - thing: Vehicle Routing
+
+# - name: New York Child Care Desert Optimization 
+#   url: https://github.com/bchiang7/CS3200-Project
+#   code: https://github.com/bchiang7/CS3200-Project
+#   description: Project for IEOR 4004 Optimization Models and Methods course. Built mixed integer optimization model to allocate childcare funding across New York State by selecting
+#     new facility construction and existing center expansions. Incorporated demographic demand, age specific capacity requirements, piecewise expansion costs, and geographic spacing constraints
+#     to eliminate identified child care desert at minimum total cost
+#   used:
+#     - thing: Python 
+#     - thing: Gurobi
+#     - thing: Geopy
+#     - thing: Integer and Mixed-Integer Programming
+
+# - name: Sterile Processing Department Quality Assurance and Resource
+#     Allocation 
+#   url: https://bchiang7.github.io/Redesign-myNEU/
+#   code: https://github.com/bchiang7/Redesign-myNEU
+#   description: Undergraduate senior design capstone project with Piedmont Atlanta Hospital. Improved hospital sterile processing operations by (1) designing and piloting a tray quality assurance checklist and (2) building a Simio simulation model to optimize surgical
+#     tray inventory and technician staffing levels. Recommendations reduced tray-related surgery delay rates, improved projected fill rates for surgical tray assembly, and supported capacity planning for increasing surgical demand and reducing hospital operation costs. 
+#   used: 
+#     - thing: Simio
+#     - thing: OptQuest
+#     - thing: Excel
+#     - thing: Discrete-Event Simulation
+#     - thing: Exploratory Data Analysis
+#     - thing: Process Improvement
+#     - thing: Quality Assurance
+#     - thing: Capacity Planning
+
+

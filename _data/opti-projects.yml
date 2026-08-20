@@ -1,0 +1,89 @@
+- name: Adaptive Dynamic Pricing with Demand Learning and Revenue Optimization
+  url: https://github.com/dz2590/dynamic-pricing
+  code: https://github.com/dz2590/dynamic-pricing
+  description: Final project for IEOR 4601 Dynamic Pricing course. Built a three-phase dynamic pricing strategy that learns customer demand and responds to changing
+    competitor prices using systematic price exploration, Thompson Sampling under demand uncertainty, Histogram Gradient Boosting, and kernel-based demand
+    estimation. Evaluates candidate prices and selects the one with the highest predicted revenue to offer to customers. 
+  used:
+    - thing: Python 
+    - thing: SciPy
+    - thing: Scikit-learn
+    - thing: Thompson Sampling
+    - thing: Gradient Boosting
+
+- name: Columbia University Microtransit Shuttle Optimization
+  url: https://github.com/dz2590/night-shuttle-route-opti
+  code: https://github.com/dz2590/night-shuttle-route-opti
+  description: Final project for IEOR 4418 Transportation Analytics course. Developed a dynamic batching and vehicle routing framework to optimize 
+    Columbia's nighttime shuttle service. The system batches ride requests, assigns them to available shuttles, and uses mixed integer programming
+    (Traveling Salesman) to optimize pick up and drop off routes. Conducted sensitivity analyses to evaluate how batching intervals and fleet
+    availability affect passenger wait times and service performance. 
+  used:
+    - thing: Python
+    - thing: Gurobi 
+    - thing: NetworkX
+    - thing: OSMnx
+    - thing: Shapely
+    - thing: Matplotlib
+    - thing: Mixed Integer Programming
+    - thing: Vehicle Routing
+
+- name: New York Child Care Desert Optimization 
+  url: https://github.com/dz2590/childcare-opti
+  code: https://github.com/dz2590/childcare-opti
+  description: Project for IEOR 4004 Optimization Models and Methods course. Built mixed integer optimization model to allocate childcare funding across New York State by selecting
+    new facility construction and existing center expansions. Incorporated demographic demand, age specific capacity requirements, piecewise expansion costs, and geographic spacing constraints
+    to eliminate identified child care desert at minimum total cost
+  used:
+    - thing: Python 
+    - thing: Gurobi
+    - thing: Geopy
+    - thing: Integer and Mixed-Integer Programming
+
+- name: Sterile Processing Department Quality Assurance and Resource
+    Allocation 
+  url: https://github.com/dz2590/dz2590.github.io/blob/main/18%20Piedmont%20Atlanta%20SPD%20Hospital%20Final%20Report.pdf
+  code: https://github.com/dz2590/dz2590.github.io/blob/main/18%20Piedmont%20Atlanta%20SPD%20Hospital%20Final%20Report.pdf
+  description: Undergraduate senior design capstone project with Piedmont Atlanta Hospital. Improved hospital sterile processing operations by (1) designing and piloting a tray quality assurance checklist and (2) building a Simio simulation model to optimize surgical
+    tray inventory and technician staffing levels. Recommendations reduced tray-related surgery delay rates, improved projected fill rates for surgical tray assembly, and supported capacity planning for increasing surgical demand and reducing hospital operation costs. 
+  used: 
+    - thing: Simio
+    - thing: OptQuest
+    - thing: Excel
+    - thing: Discrete-Event Simulation
+    - thing: Exploratory Data Analysis
+    - thing: Process Improvement
+    - thing: Quality Assurance
+    - thing: Capacity Planning
+
+# - name: Post-ICU Myocardial Infarction Risk Prediction
+#   url: https://github.com/crowddj/crowddj-react
+#   code: https://github.com/crowddj/crowddj-react
+#   description: Final project for BINF 4008 - Machine Learning for Healthcare. Built and evaluated survival machine learning models using MIMIC-IV data to predict time to first myocardial infarction amongst post-ICU discharge patients.
+#     Conducted clinical cohort construction, missing data and correlation analyses, feature engineering, model comparison on baseline cox, elastic net cox, random survival forest, and gradient boosting. Performed hyperparameter tuning
+#     and assessed results using calibration, Kaplan-Meier risk stratification, hazard ratio interpretation, and subgroup performance analyses. 
+#   used: 
+#     - thing: Python
+#     - thing: Exploratory Data Analysis
+#     - thing: Feature Engineering
+#     - thing: Scikit-survival
+#     - thing: Lifelines
+#     - thing: Google BigQuery
+
+# - name: IBM Job Salary Prediction and Workforce Analytics
+#   url: http://quiet-dusk-89245.herokuapp.com/
+#   code: https://github.com/bchiang7/DemoWebApp
+#   description: Final project for STAT 5243 - Advanced Data Science and Artificial Intelligence. Built end-to-end salary analytics and prediction pipeline using web scraped IBM job posting data. 
+#     performed statistical exploratory data analysis, feature engineering, as well as unsupervised and supervised modeling to identify key compensation drivers and predict salary from role, seniority level, education level,
+#     geographic location, and technical skill requirements.
+#   used:
+#     - thing: Python
+#     - thing: Selenium
+#     - thing: Pandas
+#     - thing: Scikit-learn
+#     - thing: NLP
+#     - thing: PCA
+#     - thing: Clustering
+#     - thing: Shiny
+
+

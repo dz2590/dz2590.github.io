@@ -1,0 +1,24 @@
+languages:
+  - item: Python
+  - item: R
+  - item: SQL
+  - item: Excel VBA
+
+frameworks:
+  - item: Gurobi
+  - item: CPLEX / OPL
+  - item: Simio / OptQuest
+
+tools:
+  - item: scikit-learn
+  - item: statsmodels
+  - item: scikit-survival
+  - item: lifelines
+
+design:
+  - item: pandas
+  - item: NumPy
+  - item: matplotlib
+  - item: seaborn
+  - item: Google Cloud Platform / BigQuery
+  - item: Git / GitHub
