@@ -1,13 +1,13 @@
 # Site settings
 name: Daisy Zhou
-title: Daisy Zhou | Front End Software Engineer
+title: Daisy Zhou | Operations Research
 description: 
 url: https://dz2590.github.io
 baseurl: ''
 email: dz2590@columbia.edu
 cover: https://bchiang7.github.io/img/og.png
 logo: https://bchiang7.github.io/img/emojis/technologist.png
-resume: https://bchiang7.github.io/resume.pdf
+resume: /resume.pdf
 social:
   - title: email
     url: mailto:dz2590@columbia.edu
