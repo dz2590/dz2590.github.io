@@ -45,7 +45,8 @@
   url: /18 Piedmont Atlanta SPD Hospital Final Report.pdf
   code: /18 Piedmont Atlanta SPD Hospital Final Report.pdf
   description: Improved hospital sterile processing operations by (1) designing and piloting a tray quality assurance checklist and (2) building a Simio simulation model to optimize surgical
-    tray inventory and technician staffing levels. Recommendations reduced tray-related surgery delay rates by , improved projected fill rates for surgical tray assembly up to 99%, and supported capacity planning for increasing surgical demand and reducing hospital operation costs. 
+    tray inventory and technician staffing levels. Final recommendations reduced surgery delays by 5%, improved surgical tray assembly fill rates up to 99%, and supported overall capacity planning 
+    to improve patient health outcomes and reduce surgery costs. 
   used: 
     - thing: Simio
     - thing: OptQuest
