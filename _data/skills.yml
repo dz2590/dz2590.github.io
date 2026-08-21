@@ -14,11 +14,13 @@ tools:
   - item: statsmodels
   - item: scikit-survival
   - item: lifelines
+  - item: A/B testing
 
 design:
   - item: pandas
   - item: NumPy
   - item: matplotlib
   - item: seaborn
+  - item: Tableau 
   - item: Google Cloud Platform / BigQuery
   - item: Git / GitHub

@@ -1,7 +1,7 @@
 - name: Adaptive Dynamic Pricing with Demand Learning and Revenue Optimization
   url: https://github.com/dz2590/dynamic-pricing
   code: https://github.com/dz2590/dynamic-pricing
-  description: Final project for IEOR 4601 Dynamic Pricing course. Built a three-phase dynamic pricing strategy that learns customer demand and responds to changing
+  description: Project for IEOR 4601 Dynamic Pricing course. Built a three-phase dynamic pricing strategy that learns customer demand and responds to changing
     competitor prices using systematic price exploration, Thompson Sampling under demand uncertainty, Histogram Gradient Boosting, and kernel-based demand
     estimation. Evaluates candidate prices and selects the one with the highest predicted revenue to offer to customers. 
   used:
@@ -14,7 +14,7 @@
 - name: Columbia University Microtransit Shuttle Optimization
   url: https://github.com/dz2590/night-shuttle-route-opti
   code: https://github.com/dz2590/night-shuttle-route-opti
-  description: Final project for IEOR 4418 Transportation Analytics course. Developed a dynamic batching and vehicle routing framework to optimize 
+  description: Project for IEOR 4418 Transportation Analytics course. Developed a dynamic batching and vehicle routing framework to optimize 
     Columbia's nighttime shuttle service. The system batches ride requests, assigns them to available shuttles, and uses mixed integer programming
     (Traveling Salesman) to optimize pick up and drop off routes. Conducted sensitivity analyses to evaluate how batching intervals and fleet
     availability affect passenger wait times and service performance. 
@@ -33,7 +33,7 @@
   code: https://github.com/dz2590/childcare-opti
   description: Project for IEOR 4004 Optimization Models and Methods course. Built mixed integer optimization model to allocate childcare funding across New York State by selecting
     new facility construction and existing center expansions. Incorporated demographic demand, age specific capacity requirements, piecewise expansion costs, and geographic spacing constraints
-    to eliminate identified child care desert at minimum total cost
+    to eliminate child care deserts at minimum total cost.
   used:
     - thing: Python 
     - thing: Gurobi
@@ -42,10 +42,10 @@
 
 - name: Sterile Processing Department Quality Assurance and Resource
     Allocation 
-  url: https://github.com/dz2590/dz2590.github.io/blob/main/18%20Piedmont%20Atlanta%20SPD%20Hospital%20Final%20Report.pdf
-  code: https://github.com/dz2590/dz2590.github.io/blob/main/18%20Piedmont%20Atlanta%20SPD%20Hospital%20Final%20Report.pdf
-  description: Undergraduate senior design capstone project with Piedmont Atlanta Hospital. Improved hospital sterile processing operations by (1) designing and piloting a tray quality assurance checklist and (2) building a Simio simulation model to optimize surgical
-    tray inventory and technician staffing levels. Recommendations reduced tray-related surgery delay rates, improved projected fill rates for surgical tray assembly, and supported capacity planning for increasing surgical demand and reducing hospital operation costs. 
+  url: /18 Piedmont Atlanta SPD Hospital Final Report.pdf
+  code: /18 Piedmont Atlanta SPD Hospital Final Report.pdf
+  description: Improved hospital sterile processing operations by (1) designing and piloting a tray quality assurance checklist and (2) building a Simio simulation model to optimize surgical
+    tray inventory and technician staffing levels. Recommendations reduced tray-related surgery delay rates by , improved projected fill rates for surgical tray assembly up to 99%, and supported capacity planning for increasing surgical demand and reducing hospital operation costs. 
   used: 
     - thing: Simio
     - thing: OptQuest

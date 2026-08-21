@@ -1,21 +1,51 @@
+// .skills {
+//   .skillz {
+//     display: flex;
+//     justify-content: space-between;
+//     @include weird-medium {
+//       flex-wrap: wrap;
+//     }
+//     &__category {
+//       @include weird-medium {
+//         width: 47%;
+//         margin-right: 5px;
+//         margin-bottom: 25px;
+//       }
+//       &__label {
+//         font-weight: 700;
+//         color: $black;
+//         text-transform: uppercase;
+//       }
+//       &__item {
+//         margin: 3px 0;
+//         font-size: 0.9rem;
+//       }
+//     }
+//   }
+// }
+
 .skills {
   .skillz {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 45px;
+
     @include weird-medium {
-      flex-wrap: wrap;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px 40px;
     }
+
     &__category {
-      @include weird-medium {
-        width: 47%;
-        margin-right: 5px;
-        margin-bottom: 25px;
-      }
       &__label {
         font-weight: 700;
         color: $black;
         text-transform: uppercase;
+
+        // keeps all skill lists aligned
+        min-height: 60px;
+        margin-bottom: 5px;
       }
+
       &__item {
         margin: 3px 0;
         font-size: 0.9rem;
